@@ -5,6 +5,10 @@
   "version": "1.0.0",
   "description": "TypeScript decorator to create getters/setters for a Vuex state.",
   "main": "lib/index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/scleriot/vuex-class-state2way"
+  },
   "typings": "lib/index.d.ts",
   "scripts": {
     "prepare": "npm run build",
