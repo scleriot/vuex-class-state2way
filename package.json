@@ -1,0 +1,22 @@
+{
+  "name": "vuex-class-state2way",
+  "author": "scleriot",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "TypeScript decorator to create getters/setters for a Vuex state.",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3",
+    "vue": "^2.6.6",
+    "vue-class-component": "^6.3.2"
+  }
+}
